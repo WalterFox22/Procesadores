@@ -13,7 +13,7 @@ public class Main {
 
         //Integrante dos
         Procesadores_Intel prec2 = new Procesadores_Intel();
-
+        prec2.imprimir_Intel();
 
 
 
