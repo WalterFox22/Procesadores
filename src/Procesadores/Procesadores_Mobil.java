@@ -6,7 +6,8 @@ public class Procesadores_Mobil extends  Procesadores{
     public Procesadores_Mobil() {
     }
 
-    public Procesadores_Mobil(boolean optimizacion_energia) {
+    public Procesadores_Mobil(int nucleos, double consumo, double velocidad, String nombre, boolean optimizacion_energia) {
+        super(nucleos, consumo, velocidad, nombre);
         this.optimizacion_energia = optimizacion_energia;
     }
 
