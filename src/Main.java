@@ -32,7 +32,7 @@ public class Main {
         prec9.imprimir_AMD();
 
 
-        //Ariel Sanches INTEL 10 11 12
+        //Integrante cuatro Ariel Sanches INTEL 10 11 12
         Procesadores_Intel prec10 = new Procesadores_Intel(6, 22.52, 2.1, "Xeon", "FCLGA2011", true);
         Procesadores_Intel prec11 = new Procesadores_Intel(6, 33.29, 3.5, "Xeon", "FCLGA2011", true);
         Procesadores_Intel prec12 = new Procesadores_Intel(6, 23.60, 2.5, "Xeon", "LGA1366", false);
