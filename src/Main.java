@@ -10,7 +10,8 @@ public class Main {
         Procesadores p3 = new Procesadores();
 
         // Integrante uno
-        Procesadores_AMD proce1 = new Procesadores_AMD()
+        Procesadores_AMD p4 = new Procesadores_AMD();
+
 
 
 
