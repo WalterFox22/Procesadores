@@ -6,17 +6,23 @@ public class Procesadores_Escritorio extends Procesadores{
     public Procesadores_Escritorio() {
     }
 
-    public Procesadores_Escritorio(String soquet) {
+    public Procesadores_Escritorio(int nucleos, double consumo, double velocidad, String nombre) {
+        super(nucleos, consumo, velocidad, nombre);
+    }
+
+    public Procesadores_Escritorio(int nucleos, double consumo, double velocidad, String nombre, String soquet) {
+        super(nucleos, consumo, velocidad, nombre);
         this.soquet = soquet;
     }
 
     //setters y getters
-    public String getSoquet() {
-        return soquet;
-    }
 
     public void setSoquet(String soquet) {
         this.soquet = soquet;
+    }
+
+    public String getSoquet() {
+        return soquet;
     }
 
     //imprimir datos
