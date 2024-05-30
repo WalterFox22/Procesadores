@@ -15,4 +15,6 @@ public class Procesadores {
         this.nombre = nombre;
     }
 
+    // setter y getters
+
 }
