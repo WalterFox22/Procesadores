@@ -7,6 +7,7 @@ public class Main {
 
         // Integrante uno
         Procesadores_AMD prec1 = new Procesadores_AMD();
+        Procesadores_AMD prec2 = new Procesadores_AMD();
         prec1.imprimir_AMD();
 
 
