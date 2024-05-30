@@ -1,3 +1,5 @@
+//WC
+//RP
 import Procesadores.Procesadores;
 
 public class Main {
@@ -5,6 +7,16 @@ public class Main {
 
         Procesadores p1 = new Procesadores();
         Procesadores p2 = new Procesadores();
+        Procesadores p3 = new Procesadores();
+
+
+
+
+
+
+
+
+
 
     }
 }
