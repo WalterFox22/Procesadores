@@ -18,12 +18,12 @@ public class Procesadores_AMD extends Procesadores_Escritorio{
     }
 
     public  void imprimir_AMD(){
+        System.out.println("---------------------------------------");
         System.out.println("Nucleos del AMD: "+nucleos);
         System.out.println("Consumo: "+consumo);
         System.out.println("Velocidad: "+velocidad);
         System.out.println("Nombre: "+nombre);
-        System.out.println("Soquet: "+soquet);
+        System.out.println("Socket: "+soquet);
         System.out.println("Sensor temperatura: "+sensor_temperatura);
-
     }
 }
