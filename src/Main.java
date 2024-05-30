@@ -13,11 +13,13 @@ public class Main {
 
 
 
-        //Richard Padilla
-        Procesadores_Intel prec3 = new Procesadores_Intel( );
+        //Richard Padilla INTEL
+        Procesadores_Intel prec3 = new Procesadores_Intel(18,  );
         Procesadores_Intel prec4 = new Procesadores_Intel( );
+        Procesadores_Intel prec5 = new Procesadores_Intel();
         prec3.imprimir_Intel();
         prec4.imprimir_Intel();
+        prec5.imprimir_Intel();
 
         //Kevin Mendoza AMD
 
