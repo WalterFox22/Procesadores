@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Integrante uno Walter Cobacango 123
-        Procesadores_AMD prec1 = new Procesadores_AMD(34, 23.55, 45.66, "WALT", "AA", true);
+        Procesadores_AMD prec1 = new Procesadores_AMD(12, 105, 4.8, "AMD Ryzen 9 5900X", "AM4", true);
         Procesadores_AMD prec2 = new Procesadores_AMD();
         Procesadores_AMD prec3 = new Procesadores_AMD();
         prec2.imprimir_AMD();
