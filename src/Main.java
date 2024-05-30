@@ -14,12 +14,12 @@ public class Main {
 
 
         //Richard Padilla INTEL
-        Procesadores_Intel prec4 = new Procesadores_Intel(8, 4.25, "Intel Xeon E5-2620",  );
-        Procesadores_Intel prec5 = new Procesadores_Intel( );
-        Procesadores_Intel prec6 = new Procesadores_Intel();
-        prec3.imprimir_Intel();
+        Procesadores_Intel prec4 = new Procesadores_Intel(8, 14.25, 12.4,"Intel Xeon E5-2620", "socket 603",true);
+        Procesadores_Intel prec5 = new Procesadores_Intel(16, 26.4, 14,"Intel Core i5", "LGA1156", true);
+        Procesadores_Intel prec6 = new Procesadores_Intel(24, 26.7, 56.7, "Intel core i7", "LGA1200", true);
         prec4.imprimir_Intel();
         prec5.imprimir_Intel();
+        prec6.imprimir_Intel();
 
         //Kevin Mendoza AMD
 
