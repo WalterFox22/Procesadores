@@ -28,5 +28,6 @@ public class Procesadores_Escritorio extends Procesadores{
     //imprimir datos
     public void Imprimir_datos_escritorio(){
         System.out.println(soquet);
+
     }
 }

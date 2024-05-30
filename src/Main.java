@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Integrante uno
-        Procesadores_AMD prec1 = new Procesadores_AMD();
+        Procesadores_AMD prec1 = new Procesadores_AMD(34, 23.55, 45.66, "WALT", "AA", true);
         Procesadores_AMD prec2 = new Procesadores_AMD();
         prec1.imprimir_AMD();
 
