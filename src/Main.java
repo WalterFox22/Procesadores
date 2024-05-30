@@ -15,7 +15,7 @@ public class Main {
 
 
 
-        //Richard Padilla 4 5 6
+        //Integrante dos Richard Padilla 4 5 6
         Procesadores_Intel prec4 = new Procesadores_Intel(8, 100, 4.2, "Intel Xeon E5-2620 V3", "socket 603", true );
         Procesadores_Intel prec5 = new Procesadores_Intel(16, 117, 4.8, "Intel core i5", "LGA1151", true);
         Procesadores_Intel prec6 = new Procesadores_Intel(24, 122, 5.0, "Intel core i7", "LGA2066", true);
