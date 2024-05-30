@@ -12,8 +12,10 @@ public class Main {
 
 
         //Integrante dos
-        Procesadores_Intel prec2 = new Procesadores_Intel();
-        prec2.imprimir_Intel();
+        Procesadores_Intel prec3 = new Procesadores_Intel();
+        Procesadores_Intel prec4 = new Procesadores_Intel( );
+        prec4.imprimir_Intel();
+
 
 
 
