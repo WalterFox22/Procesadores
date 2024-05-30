@@ -9,11 +9,17 @@ public class Main {
         Procesadores p2 = new Procesadores();
         Procesadores p3 = new Procesadores();
 
+        // Integrante uno
+        Procesadores_AMD proce1 = new Procesadores_AMD()
+
+
+
+        //Integrante dos
 
 
 
 
-        System.out.println(imprimir_datos());
+
 
         }
     }
