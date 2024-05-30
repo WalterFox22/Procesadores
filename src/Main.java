@@ -2,7 +2,6 @@ import Procesadores.Procesadores;
 import Procesadores.Procesadores_AMD;
 import Procesadores.Procesadores_Intel;
 
-
 public class Main {
     public static void main(String[] args) {
 
@@ -13,6 +12,8 @@ public class Main {
 
 
         //Integrante dos
+        Procesadores_Intel prec2 = new Procesadores_Intel();
+
 
 
 
@@ -21,4 +22,3 @@ public class Main {
 
         }
     }
-}
