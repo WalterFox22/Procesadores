@@ -16,10 +16,12 @@ public class Main {
 
 
         //Richard Padilla 4 5 6
-        Procesadores_Intel prec4 = new Procesadores_Intel( );
-        Procesadores_Intel prec = new Procesadores_Intel( );
-        prec3.imprimir_Intel();
+        Procesadores_Intel prec4 = new Procesadores_Intel(8, 100, 4.2, "Intel Xeon E5-2620 V3", "socket 603", true );
+        Procesadores_Intel prec5 = new Procesadores_Intel(16, 117, 4.8, "Intel core i5", "LGA1151", true);
+        Procesadores_Intel prec6 = new Procesadores_Intel(24, 122, 5.0, "Intel core i7", "LGA2066", true);
         prec4.imprimir_Intel();
+        prec5.imprimir_Intel();
+        prec6.imprimir_Intel();
 
         //Kevin Mendoza AMD 7 8 9
         Procesadores_AMD prec7 = new Procesadores_AMD(12, 128,4.4,"Ryzen 9 7900X3D","AM5",true);

@@ -20,5 +20,11 @@ public class Procesadores_Intel extends Procesadores_Escritorio{
     }
     public void imprimir_Intel(){
         System.out.println("Nucleos: " + getNucleos());
+        System.out.println("Consumo: " + getConsumo());
+        System.out.println("Velocidad: " + getVelocidad());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Soquet: " + getSoquet());
+        System.out.println("Tarjeta: " + getTarjeta_video());
+
     }
 }
