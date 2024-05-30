@@ -14,9 +14,9 @@ public class Main {
 
 
         //Richard Padilla INTEL
-        Procesadores_Intel prec3 = new Procesadores_Intel(18,  );
-        Procesadores_Intel prec4 = new Procesadores_Intel( );
-        Procesadores_Intel prec5 = new Procesadores_Intel();
+        Procesadores_Intel prec4 = new Procesadores_Intel(8, 4.25, "Intel Xeon E5-2620",  );
+        Procesadores_Intel prec5 = new Procesadores_Intel( );
+        Procesadores_Intel prec6 = new Procesadores_Intel();
         prec3.imprimir_Intel();
         prec4.imprimir_Intel();
         prec5.imprimir_Intel();
