@@ -1,12 +1,13 @@
-//WC
-//RP
 import Procesadores.Procesadores;
+import Procesadores.Procesadores_AMD;
+import Procesadores.Procesadores_Intel;
+
 
 public class Main {
     public static void main(String[] args) {
 
         // Integrante uno
-        Procesadores_AMD p4 = new Procesadores_AMD();
+        Procesadores_AMD prec1 = new Procesadores_AMD();
 
 
 
