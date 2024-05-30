@@ -24,12 +24,12 @@ public class Main {
         prec6.imprimir_Intel();
 
         //Kevin Mendoza AMD 7 8 9
-        Procesadores_AMD prec5 = new Procesadores_AMD(12, 128,4.4,"Ryzen 9 7900X3D","AM5",true);
-        Procesadores_AMD prec6 = new Procesadores_AMD(8, 32, 3.8, "AMD Ryzen 7 7700", "AM5", true );
-        Procesadores_AMD prec7 = new Procesadores_AMD(8, 8, 3.3, "AMD FX-8300", "AM3+", true );
-        prec5.imprimir_AMD();
-        prec6.imprimir_AMD();
+        Procesadores_AMD prec7 = new Procesadores_AMD(12, 128,4.4,"Ryzen 9 7900X3D","AM5",true);
+        Procesadores_AMD prec8 = new Procesadores_AMD(8, 32, 3.8, "AMD Ryzen 7 7700", "AM5", true );
+        Procesadores_AMD prec9 = new Procesadores_AMD(8, 8, 3.3, "AMD FX-8300", "AM3+", true );
         prec7.imprimir_AMD();
+        prec8.imprimir_AMD();
+        prec9.imprimir_AMD();
 
 
         //Ariel Sanches INTEL 10 11 12
