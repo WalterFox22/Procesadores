@@ -10,6 +10,7 @@ public class Procesadores_Escritorio extends Procesadores{
         this.soquet = soquet;
     }
 
+    //setters y getters
     public String getSoquet() {
         return soquet;
     }
@@ -18,6 +19,7 @@ public class Procesadores_Escritorio extends Procesadores{
         this.soquet = soquet;
     }
 
+    //imprimir datos
     public void Imprimir_datos_escritorio(){
         System.out.println(soquet);
     }

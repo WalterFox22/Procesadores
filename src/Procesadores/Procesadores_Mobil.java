@@ -10,6 +10,7 @@ public class Procesadores_Mobil extends  Procesadores{
         this.optimizacion_energia = optimizacion_energia;
     }
 
+    // setters y gettes
     public boolean getOptimizacion_energia() {
         return optimizacion_energia;
     }
@@ -18,6 +19,7 @@ public class Procesadores_Mobil extends  Procesadores{
         this.optimizacion_energia = optimizacion_energia;
     }
 
+    //imprimir datos
     public void imprimir_datos_mobiles(){
         System.out.println(optimizacion_energia);
     }
