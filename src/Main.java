@@ -45,9 +45,12 @@ public class Main {
 
 
         //Marlon nicolalde AMD 13 14 15
-
-
-
+        Procesadores_AMD prec13=new Procesadores_AMD(8, 8.98, 10.54, "Ryzen 7", "R7AMD", false);
+        Procesadores_AMD prec14=new Procesadores_AMD(4, 2.34, 4.43, "Ryzen 3", "R3AMD", false);
+        Procesadores_AMD prec15=new Procesadores_AMD(5, 5.43, 5.12, "Ryzen 5", "R5AMD", true);
+        prec13.imprimir_AMD();
+        prec14.imprimir_AMD();
+        prec15.imprimir_AMD();
 
 
 
