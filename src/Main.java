@@ -7,39 +7,45 @@ public class Main {
 
         // Integrante uno Walter Cobacango 123
         Procesadores_AMD prec1 = new Procesadores_AMD(12, 105, 4.8, "AMD Ryzen 9 5900X", "AM4", true);
-        Procesadores_AMD prec2 = new Procesadores_AMD();
-        Procesadores_AMD prec3 = new Procesadores_AMD();
+        Procesadores_AMD prec2 = new Procesadores_AMD(8, 105, 4.7, "AMD Ryzen 7 5800X", "Socket AM4",true);
+        Procesadores_AMD prec3 = new Procesadores_AMD(6, 65, 4.6, "AMD Ryzen 5 5600X", "Socket AM4", true);
+        prec1.imprimir_AMD();
         prec2.imprimir_AMD();
+        prec3.imprimir_AMD();
 
 
 
         //Richard Padilla 4 5 6
-        //Procesadores_Intel prec3 = new Procesadores_Intel( );
-        Procesadores_Intel prec4 = new Procesadores_Intel( );
-        //prec3.imprimir_Intel();
+        Procesadores_Intel prec4 = new Procesadores_Intel(8, 100, 4.2, "Intel Xeon E5-2620 V3", "socket 603", true );
+        Procesadores_Intel prec5 = new Procesadores_Intel(16, 117, 4.8, "Intel core i5", "LGA1151", true);
+        Procesadores_Intel prec6 = new Procesadores_Intel(24, 122, 5.0, "Intel core i7", "LGA2066", true);
         prec4.imprimir_Intel();
+        prec5.imprimir_Intel();
+        prec6.imprimir_Intel();
 
         //Kevin Mendoza AMD 7 8 9
-
-
-
+        Procesadores_AMD prec5 = new Procesadores_AMD(12, 128,4.4,"Ryzen 9 7900X3D","AM5",true);
+        Procesadores_AMD prec6 = new Procesadores_AMD(8, 32, 3.8, "AMD Ryzen 7 7700", "AM5", true );
+        Procesadores_AMD prec7 = new Procesadores_AMD(8, 8, 3.3, "AMD FX-8300", "AM3+", true );
+        prec5.imprimir_AMD();
+        prec6.imprimir_AMD();
+        prec7.imprimir_AMD();
 
 
         //Ariel Sanches INTEL 10 11 12
-
-
+        Procesadores_Intel prec10 = new Procesadores_Intel(6, 22.52, 2.1, "Xeon", "FCLGA2011", true);
+        Procesadores_Intel prec11 = new Procesadores_Intel(6, 33.29, 3.5, "Xeon", "FCLGA2011", true);
+        Procesadores_Intel prec12 = new Procesadores_Intel(6, 23.60, 2.5, "Xeon", "LGA1366", false);
+        prec10.imprimir_Intel();
+        prec11.imprimir_Intel();
+        prec12.imprimir_Intel();
 
 
 
 
 
         //Marlon nicolalde AMD 13 14 15
-        Procesadores_AMD prec13=new Procesadores_AMD(8, 3.56, 8.98, "Ryzen 5", "R5AMD", true);
-        Procesadores_AMD prec14=new Procesadores_AMD(12, 6.78, 9.67, "Ryzen 7", "R7AMD", false);
-        Procesadores_AMD prec15=new Procesadores_AMD(4, 2.45, 4.65, "Ryzen 3", "R3AMD", true);
-        prec13.imprimir_AMD();
-        prec14.imprimir_AMD();
-        prec15.imprimir_AMD();
+
 
 
 
