@@ -52,7 +52,7 @@ public class Main {
         prec14.imprimir_AMD();
         prec15.imprimir_AMD();
 
-        //Joel Parra pentium xenon 3-2286g, silver 4210, gold 6148
+        //Joel Parra xenon 3-2286g, silver 4210, gold 6148
         Procesadores_Intel prec16 = new Procesadores_Intel(6, 80, 3.8, "Intel Xeon E5-2286G", "LGA 1151", true );
         Procesadores_Intel prec17 = new Procesadores_Intel(10, 85, 2.2, "Intel Xeon Silver 4210", "LGA 3647", false);
         Procesadores_Intel prec18 = new Procesadores_Intel(20, 150, 2.4, "Intel Xeon Gold 6148", "LGA 3647", false);
